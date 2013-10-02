@@ -1,6 +1,38 @@
-"""Solution to an exercise in Think Python.
+def little_grid():
+	print '+ - - - - + - - - - +'
+	print '|         |         |'
+	print '|         |         |'
+	print '|         |         |'
+	print '|         |         |'
+	print '+ - - - - + - - - - +'
+	print '|         |         |'
+	print '|         |         |'
+	print '|         |         |'
+	print '|         |         |'
+	print '+ - - - - + - - - - +'
 
-Author:
-"""
+def big_grid():
+	print '+ - - - - + - - - - + - - - - + - - - - +'
+	print '|         |         |         |         |'
+	print '|         |         |         |         |'
+	print '|         |         |         |         |'
+	print '|         |         |         |         |'
+	print '+ - - - - + - - - - + - - - - + - - - - +'
+	print '|         |         |         |         |'
+	print '|         |         |         |         |'
+	print '|         |         |         |         |'
+	print '|         |         |         |         |'
+	print '+ - - - - + - - - - + - - - - + - - - - +'
+	print '|         |         |         |         |'
+	print '|         |         |         |         |'
+	print '|         |         |         |         |'
+	print '|         |         |         |         |'
+	print '+ - - - - + - - - - + - - - - + - - - - +'
+	print '|         |         |         |         |'
+	print '|         |         |         |         |'
+	print '|         |         |         |         |'
+	print '|         |         |         |         |'
+	print '+ - - - - + - - - - + - - - - + - - - - +'
 
-print '+ - - - -'
+big_grid()
+little_grid()
