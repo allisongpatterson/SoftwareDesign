@@ -9,4 +9,14 @@ def is_power(a, b):
 		return False
 	is_power(a/b, b)
 
-is_power(8, 2)
+#is_power(8, 2)
+
+def gcd(a, b):
+	r = a%b
+	if r == 0:
+		print b
+		return b
+	if r != 0:
+		return gcd(b, r)
+
+#gcd(120, 288)
