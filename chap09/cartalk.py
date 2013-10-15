@@ -20,3 +20,23 @@ def is_triple_consecutive_double(word):
 	return False
 
 # print is_triple_consecutive_double('bookkeeper')
+
+def whats_my_age():
+	diff = 36
+	age_mom = 46
+	age_kid = 10
+	count = 0
+	while count < 120:
+		if str(age_mom) == str(age_kid)[::-1]:
+			print count
+			print age_mom
+			print age_kid
+			count += 1
+			age_mom += 1
+			age_kid += 1
+		else:
+			age_mom += 1
+			age_kid+= 1
+	return
+
+whats_my_age()
