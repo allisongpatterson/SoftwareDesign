@@ -3,7 +3,6 @@ def is_double(word):
 		if word[i] == word[i+1]:
 			return True
 	return False 
-# print is_double('beachball')
 
 def is_triple_consecutive_double(word):
 	i = 0
@@ -18,8 +17,6 @@ def is_triple_consecutive_double(word):
 			count = 0
 			i += 1
 	return False
-
-# print is_triple_consecutive_double('bookkeeper')
 
 def whats_my_age():
 	diff = 36
@@ -39,4 +36,7 @@ def whats_my_age():
 			age_kid+= 1
 	return
 
-whats_my_age()
+if __name__ == '__main__':
+	print is_double('beachball')
+	print is_triple_consecutive_double('bookkeeper')
+	whats_my_age()
