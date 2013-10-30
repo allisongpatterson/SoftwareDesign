@@ -69,7 +69,9 @@ def most_common(hist):
     returns: list of (word, frequency) pairs, sorted by frequency
     """
     t = []
-    # TODO: fix this
+    for (key, freq) in hist:
+        t.append((key, freq))
+    t.sort(reverse = True)
     return t
 
 
@@ -93,7 +95,9 @@ def subtract(d1, d2):
     returns: new dictionary
     """
     res = {}
-    # TODO: fill this is
+    for key in d1:
+        if key not in d2:
+            res.append(key)
     return res
 
 
@@ -112,7 +116,7 @@ def random_word(hist):
 
     The probability of each word is proportional to its frequency.
     """
-    # TODO: fix this
+    random.choice(hist)
     return 'random word'
 
 
