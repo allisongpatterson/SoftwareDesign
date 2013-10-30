@@ -10,4 +10,6 @@ def estimate_pi():
 		total = total + factor
 		k = k + 1
 		return (total)**(-1)
-print estimate_pi()
+
+if __name__ == '__main__':
+	print estimate_pi()
