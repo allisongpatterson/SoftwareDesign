@@ -45,3 +45,6 @@ def is_palindrome(word):
     elif first(word) != last(word):
         return False
     return is_palindrome(rest)
+
+if __name__ == '__main__':
+    is_palindrome(racecar)

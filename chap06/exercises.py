@@ -9,8 +9,6 @@ def is_power(a, b):
 		return False
 	is_power(a/b, b)
 
-#is_power(8, 2)
-
 def gcd(a, b):
 	r = a%b
 	if r == 0:
@@ -19,4 +17,6 @@ def gcd(a, b):
 	if r != 0:
 		return gcd(b, r)
 
-#gcd(120, 288)
+if __name__ == '__main__':
+	is_power(8, 2)
+	gcd(120, 288)
