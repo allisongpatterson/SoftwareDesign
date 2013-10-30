@@ -4,4 +4,5 @@ def is_reverse_pair(word1, word2):
 		return True
 	return False
 
-print is_reverse_pair('keep','peek')
+if __name__ == '__main__':
+	print is_reverse_pair('keep','peek')

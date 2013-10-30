@@ -8,4 +8,5 @@ def interlock(word1, word2):
 			locked += word1[i] + word2[i]
 	return locked
 
-# print interlock('shoe','cold')
+if __name__ == '__main__':
+	print interlock('shoe','cold')
