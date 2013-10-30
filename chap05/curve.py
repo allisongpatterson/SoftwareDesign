@@ -23,6 +23,6 @@ def funky(t, l, n):
 	lt(t,-90)
 	funky(t,x,n-1)
 
-
-dragon(bob, 180, 12)
-wait_for_user()
+if __name__ == '__main__':
+	dragon(bob, 180, 12)
+	wait_for_user()

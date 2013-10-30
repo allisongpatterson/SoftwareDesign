@@ -1,7 +1,7 @@
 from swampy.TurtleWorld import *
 world = TurtleWorld()
 bob = Turtle()
-bob.delay = 0.9
+bob.delay = 0.0001
 
 def draw(t, length, n):
 	if n == 0:
@@ -35,4 +35,8 @@ def snowflake(t, l, n):
 	koch(t, l, n)
 	rt(t, 120)
 
-wait_for_user()
+if __name__ == '__main__':
+	#draw(bob, 10, 4)
+	#koch(bob, 180, 4)
+	snowflake(bob, 180, 4)
+	wait_for_user()
