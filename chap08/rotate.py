@@ -14,5 +14,5 @@ def rotate_word(word, n):
 	for letter in word:
 		res = res + rotate_letter(letter, n)
 	return res
-
-print rotate_word('cheer', 7)
+if __name__ == '__main__':
+	print rotate_word('cheer', 7)
